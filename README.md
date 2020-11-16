@@ -18,7 +18,7 @@ sudo apt update
 sudo apt install -y mongodb
 sudo systemctl status mongodb
 mongo --eval 'db.runCommand({ connectionStatus: 1 })'
-
+```
 
 For other operating systems access [this link](https://treehouse.github.io/installation-guides/).
 
